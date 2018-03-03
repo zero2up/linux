@@ -1,5 +1,5 @@
 # Init
-/etc/init.d contains a list of scripts that are executed by init process during startup and shutdown. 
+/etc/init.d contains scripts that are executed by init process. 
 To automatically run a particular program or script at startup, you can create a corresponding init.d script.
 
 A typical init.d script gets executed with arguments such as "start", "stop", "restart", "pause", etc.
